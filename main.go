@@ -14,7 +14,7 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
-var targetURL = "https://api.openai.com"
+var targetURL = "https://api.link-ai.chat/v1"
 var authPrefix = "Bearer "
 
 func getProxyUrl() *http.Transport {
